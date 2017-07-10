@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF1D8F7D1E6C66C800804276 /* Airport.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1D8F7C1E6C66C800804276 /* Airport.swift */; };
+		CF54F5AB1E6A98D600B6BB5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF54F5AA1E6A98D600B6BB5A /* Assets.xcassets */; };
+		CF54F5AD1E6AA34300B6BB5A /* AirlineListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF54F5AC1E6AA34300B6BB5A /* AirlineListTableViewCell.swift */; };
+		CF54F5AF1E6B180100B6BB5A /* Airline.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF54F5AE1E6B180100B6BB5A /* Airline.swift */; };
+		CF9D23981E6B990300306FE8 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9D23961E6B990300306FE8 /* ListTableViewCell.swift */; };
+		CF9D239A1E6B998A00306FE8 /* FocusDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9D23991E6B998A00306FE8 /* FocusDataSource.swift */; };
+		CF9D239C1E6BA25F00306FE8 /* StaticDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9D239B1E6BA25F00306FE8 /* StaticDetailTableViewController.swift */; };
+		CFE5ADB81E6F95A100E17D9B /* HubDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE5ADB71E6F95A100E17D9B /* HubDataSource.swift */; };
+		CFEA10CB1E6D1F2F0092029F /* CityTableViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEA10CA1E6D1F2F0092029F /* CityTableViewProtocol.swift */; };
+		CFEBA4AF1E664B5D00A8EB00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEBA4AE1E664B5D00A8EB00 /* AppDelegate.swift */; };
+		CFEBA4B41E664B5D00A8EB00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFEBA4B21E664B5D00A8EB00 /* Main.storyboard */; };
+		CFEBA4B91E664B5D00A8EB00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFEBA4B71E664B5D00A8EB00 /* LaunchScreen.storyboard */; };
+		CFEBA4C41E664B5D00A8EB00 /* mshao_Greater_China_Region_Airline_ListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEBA4C31E664B5D00A8EB00 /* mshao_Greater_China_Region_Airline_ListTests.swift */; };
+		CFEBA4CF1E664B5D00A8EB00 /* mshao_Greater_China_Region_Airline_ListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEBA4CE1E664B5D00A8EB00 /* mshao_Greater_China_Region_Airline_ListUITests.swift */; };
+		CFEBA4DD1E6A8C8F00A8EB00 /* AirlineListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEBA4DC1E6A8C8F00A8EB00 /* AirlineListTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFEBA4C01E664B5D00A8EB00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFEBA4A31E664B5D00A8EB00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFEBA4AA1E664B5D00A8EB00;
+			remoteInfo = "mshao Greater China Region Airline List";
+		};
+		CFEBA4CB1E664B5D00A8EB00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFEBA4A31E664B5D00A8EB00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFEBA4AA1E664B5D00A8EB00;
+			remoteInfo = "mshao Greater China Region Airline List";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF1D8F7C1E6C66C800804276 /* Airport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Airport.swift; sourceTree = "<group>"; };
+		CF54F5AA1E6A98D600B6BB5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF54F5AC1E6AA34300B6BB5A /* AirlineListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirlineListTableViewCell.swift; sourceTree = "<group>"; };
+		CF54F5AE1E6B180100B6BB5A /* Airline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Airline.swift; sourceTree = "<group>"; };
+		CF9D23961E6B990300306FE8 /* ListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		CF9D23991E6B998A00306FE8 /* FocusDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FocusDataSource.swift; sourceTree = "<group>"; };
+		CF9D239B1E6BA25F00306FE8 /* StaticDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaticDetailTableViewController.swift; sourceTree = "<group>"; };
+		CFE5ADB71E6F95A100E17D9B /* HubDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HubDataSource.swift; sourceTree = "<group>"; };
+		CFEA10CA1E6D1F2F0092029F /* CityTableViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityTableViewProtocol.swift; sourceTree = "<group>"; };
+		CFEBA4AB1E664B5D00A8EB00 /* mshao Greater China Region Airline List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mshao Greater China Region Airline List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFEBA4AE1E664B5D00A8EB00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFEBA4B31E664B5D00A8EB00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFEBA4B81E664B5D00A8EB00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFEBA4BA1E664B5D00A8EB00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFEBA4BF1E664B5D00A8EB00 /* mshao Greater China Region Airline ListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mshao Greater China Region Airline ListTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFEBA4C31E664B5D00A8EB00 /* mshao_Greater_China_Region_Airline_ListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mshao_Greater_China_Region_Airline_ListTests.swift; sourceTree = "<group>"; };
+		CFEBA4C51E664B5D00A8EB00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFEBA4CA1E664B5D00A8EB00 /* mshao Greater China Region Airline ListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mshao Greater China Region Airline ListUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFEBA4CE1E664B5D00A8EB00 /* mshao_Greater_China_Region_Airline_ListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mshao_Greater_China_Region_Airline_ListUITests.swift; sourceTree = "<group>"; };
+		CFEBA4D01E664B5D00A8EB00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFEBA4DC1E6A8C8F00A8EB00 /* AirlineListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirlineListTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFEBA4A81E664B5D00A8EB00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFEBA4BC1E664B5D00A8EB00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFEBA4C71E664B5D00A8EB00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFEBA4A21E664B5D00A8EB00 = {
+			isa = PBXGroup;
+			children = (
+				CFEBA4AD1E664B5D00A8EB00 /* mshao Greater China Region Airline List */,
+				CFEBA4C21E664B5D00A8EB00 /* mshao Greater China Region Airline ListTests */,
+				CFEBA4CD1E664B5D00A8EB00 /* mshao Greater China Region Airline ListUITests */,
+				CFEBA4AC1E664B5D00A8EB00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFEBA4AC1E664B5D00A8EB00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFEBA4AB1E664B5D00A8EB00 /* mshao Greater China Region Airline List.app */,
+				CFEBA4BF1E664B5D00A8EB00 /* mshao Greater China Region Airline ListTests.xctest */,
+				CFEBA4CA1E664B5D00A8EB00 /* mshao Greater China Region Airline ListUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFEBA4AD1E664B5D00A8EB00 /* mshao Greater China Region Airline List */ = {
+			isa = PBXGroup;
+			children = (
+				CFE5ADB71E6F95A100E17D9B /* HubDataSource.swift */,
+				CF9D239B1E6BA25F00306FE8 /* StaticDetailTableViewController.swift */,
+				CFEBA4AE1E664B5D00A8EB00 /* AppDelegate.swift */,
+				CFEBA4B21E664B5D00A8EB00 /* Main.storyboard */,
+				CF54F5AC1E6AA34300B6BB5A /* AirlineListTableViewCell.swift */,
+				CFEA10CA1E6D1F2F0092029F /* CityTableViewProtocol.swift */,
+				CF9D23991E6B998A00306FE8 /* FocusDataSource.swift */,
+				CF9D23961E6B990300306FE8 /* ListTableViewCell.swift */,
+				CF54F5AE1E6B180100B6BB5A /* Airline.swift */,
+				CFEBA4B71E664B5D00A8EB00 /* LaunchScreen.storyboard */,
+				CF54F5AA1E6A98D600B6BB5A /* Assets.xcassets */,
+				CFEBA4BA1E664B5D00A8EB00 /* Info.plist */,
+				CFEBA4DC1E6A8C8F00A8EB00 /* AirlineListTableViewController.swift */,
+				CF1D8F7C1E6C66C800804276 /* Airport.swift */,
+			);
+			path = "mshao Greater China Region Airline List";
+			sourceTree = "<group>";
+		};
+		CFEBA4C21E664B5D00A8EB00 /* mshao Greater China Region Airline ListTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFEBA4C31E664B5D00A8EB00 /* mshao_Greater_China_Region_Airline_ListTests.swift */,
+				CFEBA4C51E664B5D00A8EB00 /* Info.plist */,
+			);
+			path = "mshao Greater China Region Airline ListTests";
+			sourceTree = "<group>";
+		};
+		CFEBA4CD1E664B5D00A8EB00 /* mshao Greater China Region Airline ListUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFEBA4CE1E664B5D00A8EB00 /* mshao_Greater_China_Region_Airline_ListUITests.swift */,
+				CFEBA4D01E664B5D00A8EB00 /* Info.plist */,
+			);
+			path = "mshao Greater China Region Airline ListUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFEBA4AA1E664B5D00A8EB00 /* mshao Greater China Region Airline List */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFEBA4D31E664B5D00A8EB00 /* Build configuration list for PBXNativeTarget "mshao Greater China Region Airline List" */;
+			buildPhases = (
+				CFEBA4A71E664B5D00A8EB00 /* Sources */,
+				CFEBA4A81E664B5D00A8EB00 /* Frameworks */,
+				CFEBA4A91E664B5D00A8EB00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mshao Greater China Region Airline List";
+			productName = "mshao Greater China Region Airline List";
+			productReference = CFEBA4AB1E664B5D00A8EB00 /* mshao Greater China Region Airline List.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFEBA4BE1E664B5D00A8EB00 /* mshao Greater China Region Airline ListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFEBA4D61E664B5D00A8EB00 /* Build configuration list for PBXNativeTarget "mshao Greater China Region Airline ListTests" */;
+			buildPhases = (
+				CFEBA4BB1E664B5D00A8EB00 /* Sources */,
+				CFEBA4BC1E664B5D00A8EB00 /* Frameworks */,
+				CFEBA4BD1E664B5D00A8EB00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFEBA4C11E664B5D00A8EB00 /* PBXTargetDependency */,
+			);
+			name = "mshao Greater China Region Airline ListTests";
+			productName = "mshao Greater China Region Airline ListTests";
+			productReference = CFEBA4BF1E664B5D00A8EB00 /* mshao Greater China Region Airline ListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFEBA4C91E664B5D00A8EB00 /* mshao Greater China Region Airline ListUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFEBA4D91E664B5D00A8EB00 /* Build configuration list for PBXNativeTarget "mshao Greater China Region Airline ListUITests" */;
+			buildPhases = (
+				CFEBA4C61E664B5D00A8EB00 /* Sources */,
+				CFEBA4C71E664B5D00A8EB00 /* Frameworks */,
+				CFEBA4C81E664B5D00A8EB00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFEBA4CC1E664B5D00A8EB00 /* PBXTargetDependency */,
+			);
+			name = "mshao Greater China Region Airline ListUITests";
+			productName = "mshao Greater China Region Airline ListUITests";
+			productReference = CFEBA4CA1E664B5D00A8EB00 /* mshao Greater China Region Airline ListUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFEBA4A31E664B5D00A8EB00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Mingfei Shao";
+				TargetAttributes = {
+					CFEBA4AA1E664B5D00A8EB00 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 32H26TQ927;
+						ProvisioningStyle = Automatic;
+					};
+					CFEBA4BE1E664B5D00A8EB00 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 32H26TQ927;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CFEBA4AA1E664B5D00A8EB00;
+					};
+					CFEBA4C91E664B5D00A8EB00 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 32H26TQ927;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CFEBA4AA1E664B5D00A8EB00;
+					};
+				};
+			};
+			buildConfigurationList = CFEBA4A61E664B5D00A8EB00 /* Build configuration list for PBXProject "mshao Greater China Region Airline List" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFEBA4A21E664B5D00A8EB00;
+			productRefGroup = CFEBA4AC1E664B5D00A8EB00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFEBA4AA1E664B5D00A8EB00 /* mshao Greater China Region Airline List */,
+				CFEBA4BE1E664B5D00A8EB00 /* mshao Greater China Region Airline ListTests */,
+				CFEBA4C91E664B5D00A8EB00 /* mshao Greater China Region Airline ListUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFEBA4A91E664B5D00A8EB00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF54F5AB1E6A98D600B6BB5A /* Assets.xcassets in Resources */,
+				CFEBA4B91E664B5D00A8EB00 /* LaunchScreen.storyboard in Resources */,
+				CFEBA4B41E664B5D00A8EB00 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFEBA4BD1E664B5D00A8EB00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFEBA4C81E664B5D00A8EB00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFEBA4A71E664B5D00A8EB00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF1D8F7D1E6C66C800804276 /* Airport.swift in Sources */,
+				CF54F5AF1E6B180100B6BB5A /* Airline.swift in Sources */,
+				CFEBA4DD1E6A8C8F00A8EB00 /* AirlineListTableViewController.swift in Sources */,
+				CFE5ADB81E6F95A100E17D9B /* HubDataSource.swift in Sources */,
+				CF9D239A1E6B998A00306FE8 /* FocusDataSource.swift in Sources */,
+				CF9D239C1E6BA25F00306FE8 /* StaticDetailTableViewController.swift in Sources */,
+				CF9D23981E6B990300306FE8 /* ListTableViewCell.swift in Sources */,
+				CF54F5AD1E6AA34300B6BB5A /* AirlineListTableViewCell.swift in Sources */,
+				CFEA10CB1E6D1F2F0092029F /* CityTableViewProtocol.swift in Sources */,
+				CFEBA4AF1E664B5D00A8EB00 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFEBA4BB1E664B5D00A8EB00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFEBA4C41E664B5D00A8EB00 /* mshao_Greater_China_Region_Airline_ListTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFEBA4C61E664B5D00A8EB00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFEBA4CF1E664B5D00A8EB00 /* mshao_Greater_China_Region_Airline_ListUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFEBA4C11E664B5D00A8EB00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFEBA4AA1E664B5D00A8EB00 /* mshao Greater China Region Airline List */;
+			targetProxy = CFEBA4C01E664B5D00A8EB00 /* PBXContainerItemProxy */;
+		};
+		CFEBA4CC1E664B5D00A8EB00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFEBA4AA1E664B5D00A8EB00 /* mshao Greater China Region Airline List */;
+			targetProxy = CFEBA4CB1E664B5D00A8EB00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFEBA4B21E664B5D00A8EB00 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFEBA4B31E664B5D00A8EB00 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFEBA4B71E664B5D00A8EB00 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFEBA4B81E664B5D00A8EB00 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFEBA4D11E664B5D00A8EB00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFEBA4D21E664B5D00A8EB00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFEBA4D41E664B5D00A8EB00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 32H26TQ927;
+				INFOPLIST_FILE = "mshao Greater China Region Airline List/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.depaul.csc471.mshao-Greater-China-Region-Airline-List";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CFEBA4D51E664B5D00A8EB00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 32H26TQ927;
+				INFOPLIST_FILE = "mshao Greater China Region Airline List/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.depaul.csc471.mshao-Greater-China-Region-Airline-List";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CFEBA4D71E664B5D00A8EB00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 32H26TQ927;
+				INFOPLIST_FILE = "mshao Greater China Region Airline ListTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.depaul.csc471.mshao-Greater-China-Region-Airline-ListTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mshao Greater China Region Airline List.app/mshao Greater China Region Airline List";
+			};
+			name = Debug;
+		};
+		CFEBA4D81E664B5D00A8EB00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 32H26TQ927;
+				INFOPLIST_FILE = "mshao Greater China Region Airline ListTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.depaul.csc471.mshao-Greater-China-Region-Airline-ListTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mshao Greater China Region Airline List.app/mshao Greater China Region Airline List";
+			};
+			name = Release;
+		};
+		CFEBA4DA1E664B5D00A8EB00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 32H26TQ927;
+				INFOPLIST_FILE = "mshao Greater China Region Airline ListUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.depaul.csc471.mshao-Greater-China-Region-Airline-ListUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "mshao Greater China Region Airline List";
+			};
+			name = Debug;
+		};
+		CFEBA4DB1E664B5D00A8EB00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 32H26TQ927;
+				INFOPLIST_FILE = "mshao Greater China Region Airline ListUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.depaul.csc471.mshao-Greater-China-Region-Airline-ListUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "mshao Greater China Region Airline List";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFEBA4A61E664B5D00A8EB00 /* Build configuration list for PBXProject "mshao Greater China Region Airline List" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFEBA4D11E664B5D00A8EB00 /* Debug */,
+				CFEBA4D21E664B5D00A8EB00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFEBA4D31E664B5D00A8EB00 /* Build configuration list for PBXNativeTarget "mshao Greater China Region Airline List" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFEBA4D41E664B5D00A8EB00 /* Debug */,
+				CFEBA4D51E664B5D00A8EB00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFEBA4D61E664B5D00A8EB00 /* Build configuration list for PBXNativeTarget "mshao Greater China Region Airline ListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFEBA4D71E664B5D00A8EB00 /* Debug */,
+				CFEBA4D81E664B5D00A8EB00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFEBA4D91E664B5D00A8EB00 /* Build configuration list for PBXNativeTarget "mshao Greater China Region Airline ListUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFEBA4DA1E664B5D00A8EB00 /* Debug */,
+				CFEBA4DB1E664B5D00A8EB00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFEBA4A31E664B5D00A8EB00 /* Project object */;
+}
